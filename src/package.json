@@ -1,0 +1,15 @@
+{
+  "name": "durable-functions-quickstart-javascript-azd",
+  "version": "1.0.0",
+  "description": "Durable Functions fan-out/fan-in quickstart in JavaScript",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "start": "func start",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.6.0",
+    "durable-functions": "^3.1.0"
+  },
+  "main": "functions/*.js"
+}
